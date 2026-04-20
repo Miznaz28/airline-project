@@ -87,8 +87,7 @@ def admin():
         db.commit()
     return render_template("admin.html")
 
-if __name__ == '__main__':
-    app.run(debug=True)
+
 import os
 
 if __name__ == "__main__":
